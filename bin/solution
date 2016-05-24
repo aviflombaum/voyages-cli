@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require_relative '../config/environment'
+
+require 'irb'
+
+puts "Welcome to Venture Voyage"
+puts "Please create some ships, enter their capacity in commas"
+
+ships_input = gets.strip # 8, 1, 14
+
+puts "Please enter the tonnage of your first voyage"
+
+
+
